@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5d33714.css",
+    "main.js": "/static/js/main.ee471db7.js",
+    "static/media/renai.png": "/static/media/renai.dd91b20376ef9b28fd4d.png",
+    "static/media/photo7.jpg": "/static/media/photo7.108664224f9df4d3cdf0.jpg",
+    "static/media/photo5.jpg": "/static/media/photo5.8793edc75673d013f1db.jpg",
+    "static/media/photo8.jpg": "/static/media/photo8.b78696931b8d81a8ec37.jpg",
+    "static/media/photo3.jpg": "/static/media/photo3.76a436a7bb8ad076d244.jpg",
+    "static/media/photo1.jpg": "/static/media/photo1.9e065ab169f7b6e3fa7c.jpg",
+    "static/media/photo9.jpg": "/static/media/photo9.020caeb8ca9b98b0644a.jpg",
+    "static/media/photo2.jpg": "/static/media/photo2.0847614c3060114a3736.jpg",
+    "static/media/photo10.jpg": "/static/media/photo10.0937cfdcbe78db0fb970.jpg",
+    "static/media/photo4.jpg": "/static/media/photo4.c9f3022ead77bba288fc.jpg",
+    "static/media/rashmika.jpg": "/static/media/rashmika.5ac797d5f16183a5f49f.jpg",
+    "static/media/cover1.jpg": "/static/media/cover1.856355ae0dd7424d92c1.jpg",
+    "static/media/cover2.jpg": "/static/media/cover2.c9a4017e6199158595de.jpg",
+    "static/media/proton.jpg": "/static/media/proton.15df2c86664af2b27a24.jpg",
+    "static/media/photo6.jpg": "/static/media/photo6.69e5806e7bbcd4d11190.jpg",
+    "static/media/sapota.jpg": "/static/media/sapota.537d3bfc51be306a122e.jpg",
+    "static/media/oxapps.png": "/static/media/oxapps.923fd92e3fc1b588903d.png",
+    "static/media/instagram.png": "/static/media/instagram.eabb84b9ec51170f5df7.png",
+    "static/media/github.png": "/static/media/github.dc4640a9c70bdda8d66c.png",
+    "static/media/pinterest.png": "/static/media/pinterest.326cf8ffc37beba3c70a.png",
+    "static/media/dribbble.png": "/static/media/dribbble.10127ce0b65d469fe556.png",
+    "static/media/behance.png": "/static/media/behance.542237081f8c903261f0.png",
+    "static/media/snapchat.png": "/static/media/snapchat.c289c8a8dda0a7a6f61e.png",
+    "static/media/medium.png": "/static/media/medium.5e10a24f2a1e24ccbc5b.png",
+    "index.html": "/index.html",
+    "main.a5d33714.css.map": "/static/css/main.a5d33714.css.map",
+    "main.ee471db7.js.map": "/static/js/main.ee471db7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5d33714.css",
+    "static/js/main.ee471db7.js"
+  ]
+}

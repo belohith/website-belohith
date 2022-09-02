@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.top-menu-item {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.top-menu-item:hover {
+  background-color: #333333;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.medium {
+  font-weight: 700;
+}
+
+.font-size-10 {
+  font-size: 10rem;
+}
+
+.font-size-1-2 {
+  font-size: 1.2rem;
+}
+
+.text-input {
+  width: 70%;
+  height: 2rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding: 1.5rem;
+  background: none;
+  font-size: 200%;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.text-input:focus {
+  outline: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+.text-input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cccccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #cccccc;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #cccccc;
+}
+
+.margin-8 {
+  margin: 8rem;
+}
+
+.margin-4 {
+  margin-top: 4rem;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5rem;
+}
+
+.width-100 {
+  width: 100%;
+  height: fit-content;
+}
+
+.grayoverlay {
+  filter: invert(76%) sepia(24%) saturate(5%) hue-rotate(49deg) brightness(102%)
+    contrast(96%);
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.social-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.social-icon:hover {
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+  padding: 0.1rem;
+}
+
+.layout-title {
+  font-size: 500%;
+  opacity: 0.1;
+  font-weight: bold;
+  margin: 0 4rem 0 0;
+  text-align: right;
+}
+
+.book-option {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: left;
+}
+
+.book-option:hover {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+
+.book-title {
+  font-family: "Satisfy";
+  font-size: 120%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.book-title-part {
+  font-family: "Jost", sans-serif;
+  font-size: 80%;
+}
+
+.align-center {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-lr {
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  opacity: 0.2;
+  margin: 1rem;
+  border-radius: 50%;
+  font-size: 200%;
+  visibility: hidden;
+}
+
+.btn-bookbuy {
+  background-color: #e5a673;
+  width: 15rem;
+  height: auto;
+  padding: 0.5rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #999999;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.btn-bookbuy > a,
+.btn-bookbuy > a:visited,
+.btn-bookbuy > .a:link {
+  color: #191919;
+  text-decoration: none;
+}
+
+.option-input {
+  width: 10rem;
+  height: auto;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-family: "Jost", "sans-serif";
+  font-size: 110%;
+}
+
+.option-input:focus {
+  outline: none;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.items-title {
+  font-size: 120%;
+  font-weight: bold;
+  margin: 0 0 0.5rem 1rem;
+  text-align: left;
+}
+
+.margin-4 {
+  margin: 4rem;
+}
+
+.margin-2 {
+    margin: 2rem;
+}
+
+.margin-lr-4 {
+    margin: 0 10rem 0 10rem;
+  }
+
+  .about-book {
+    background-color: #ffffff;
+    width: 100% - 100rem;
+    height: auto;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .about-book-header {
+    font-weight: bold;
+    font-size: 105%;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  
+  .flex-wh-yt {
+      
+    width: 20%;
+    height: 10rem;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-wh-yt {
+        width: 100%;
+        height: 1000rem;
+    }
+  }
+
+  .flex-wh-sp {
+    width:30%;
+    height:10rem;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-wh-sp {
+        width: 100%;
+        height: 100rem;
+    }
+  }
+
+  
+
+.items-bg {
+    width: 90rem;
+  max-height: 22rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 800px) {
+    .items-bg {
+        
+    width: 95%;
+    max-height: 22rem;
+    }
+  }
+
+.items-bg::-webkit-scrollbar {
+  width: 0.5rem; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+  border-radius: 10px;
+}
+
+.items-bg::-webkit-scrollbar-thumb {
+  background: #ffffff; /* Optional: just make scrollbar invisible */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.text-decoration {
+  text-decoration: none;
+  color: #191919;
+}
+
+.blogTh {
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.blogTh:hover {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+}
+
+.blogThTitle {
+  font-weight: bold;
+  text-align: left;
+}
+
+.blogThSub {
+  font-size: 85%;
+  text-align: left;
+  margin: 0 0.1rem 0.5rem 0.1rem;
+  color: #999999;
+}
+
+.design-item-name {
+  font-weight: bold;
+}
+
+
+.design-item-image {
+  width: 100px;
+  height: auto;
+  background-color: transparent;
+  border-radius: 0.3rem;
+}
+
+.design-item-image-bg {
+  width: 10rem;
+  height: 8rem;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+  cursor: pointer;
+}
+
+.design-item-image-bg:hover {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+
+
+.absolute {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index:99;
+}
