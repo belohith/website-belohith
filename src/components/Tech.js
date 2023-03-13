@@ -9,15 +9,13 @@ import Games from "./Games";
 function Tech() {
   return (
     <div>
-      <div className="layout" style={{ backgroundColor: "#191919" }}>
-        <p className="layout-title">Tech</p>
+      <div className="layout" style={{ backgroundColor: "#191919", opacity: 1, color: "#ffffff" }}>
+        <p className="layout-title" style={{ opacity: 0.1, color: "#ffffff" }}>tech</p>
       </div>
-      <Developer />
-      <ARVR />
-      <AI />
-      <ML />
       <Crypto />
       <Games />
+      <Developer />
+      <ARVR />
     </div>
   );
 }

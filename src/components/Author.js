@@ -4,9 +4,12 @@ import classes from "./UIBasics.css";
 
 function Author() {
   return (
-    <div className="layout" style={{ backgroundColor: "#f2d1b3" }}>
-      <p className="layout-title">Author</p>
-      <div>
+    <div>
+      <div className="layout" style={{ backgroundColor: "#191919" }}>
+        <p className="layout-title" style={{ color: "#f9c593", opacity: 1 }}>
+          Author
+        </p>
+
         <Book1 />
         <ReadBlogs/>
       </div>
