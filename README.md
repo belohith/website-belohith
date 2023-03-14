@@ -1,3 +1,6 @@
-## Take a look at my website! :)
+## Welcome to my personal website!
 
-Built on React, you can access the website from www.belohith.com
+Link: www.belohith.com
+
+Techstack: React, HTML, CSS, Javascript
+Hosting: Firebase
