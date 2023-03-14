@@ -12,6 +12,8 @@ import Bytes from "./images/bytes.JPG";
 import Ox from "./images/ox.JPG";
 import Caramel from "./images/caramel.JPG";
 import toi from "./images/toi.JPG";
+import stiw1 from "./images/stiw1.JPG";
+import arrow from "./images/arrowfitness.JPG";
 
 function Developer() {
   return (
@@ -21,6 +23,28 @@ function Developer() {
           Projects
         </p>
         <div>
+          <DevProj
+            image={stiw1}
+            title="Shark Tank India React"
+            date="9 Mar 2023"
+            tech="React · HTML · CSS · Javascript"
+            proj="View Live"
+            github="GitHub"
+            description="Built using React, this is a website displaying stats from the show Shark Tank India such as shark details, pitch details etc."
+            websiteLink="https://sharktank-india.web.app/"
+            githubLink="https://github.com/belohith/sharktank-india"
+          />
+          <DevProj
+            image={arrow}
+            title="Arrow Mark Tracker App"
+            date="13 Feb 2023"
+            tech="VueJS · HTML · CSS · Javascript · MongoDB · npm · Bulma"
+            proj="View Live"
+            github="GitHub"
+            description="A full stack fitness tracker web app that lets you track your daily fitness level details and updates the details with a Login/Signup feature."
+            websiteLink="https://midterm-example.onrender.com/"
+            githubLink="https://github.com/belohith/awsp-home"
+          />
           <DevProj
             image={toi}
             title="Text on Image"
@@ -45,7 +69,7 @@ function Developer() {
           />
           <DevProj
             image={Krakkar}
-            title="Krakkar"
+            title="Krakkar CSS Framework"
             date="31 Dec 2022"
             tech="Sass · CSS"
             proj="View Documentation"
@@ -54,9 +78,9 @@ function Developer() {
           />
           <DevProj
             image={TBH}
-            title="The Best Heads"
+            title="The Best Heads Twitter Bot"
             date="06 Dec 2022"
-            tech="Python · Twitter API · Beautiful Soup"
+            tech="Python · API · Beautiful Soup"
             proj="Open Twitter"
             description="A Twitter Bot that scrapes news from various sources and tweets 6 of them in a single image, once in every 8 hours."
             websiteLink="https://twitter.com/thebestheads"
