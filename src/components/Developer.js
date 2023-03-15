@@ -114,7 +114,7 @@ function Developer() {
           />
           <DevProj
             image={Boogle}
-            title="Boogle"
+            title="Boogle: Google Clone"
             date="26 Apr 2022"
             tech="React · NodeJS · API · MaterialUI"
             proj="View Website"
@@ -136,7 +136,7 @@ function Developer() {
           />
           <DevProj
             image={Radish}
-            title="Radish"
+            title="Radish: Travel Maps App"
             date="20 Mar 2022"
             tech="React · NodeJS · API · MaterialUI"
             proj="View Website"
