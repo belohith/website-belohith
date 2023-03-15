@@ -7,6 +7,8 @@ import Creative from './components/Creative';
 import Tech from './components/Tech';
 import About from './components/About';
 import Contact from './components/Contact';
+import ContactForm from './components/ContactForm';
+import ContactThankYou from './components/ContactThankYou';
 
 function App() {
   return (
@@ -18,7 +20,11 @@ function App() {
         <Route path="/creative" element={<Creative />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<ContactForm />} />
+          <Route path="/thankyou" element={<ContactThankYou />} />
+          <Route />
       </Routes>
+      
       <Footer/>
     </div>
   );
