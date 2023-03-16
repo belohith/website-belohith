@@ -5,6 +5,7 @@ import AI from "./AI";
 import ML from "./ML";
 import Crypto from "./Crypto";
 import Games from "./Games";
+import UIUX from "./UIUX";
 
 function Tech() {
   return (
@@ -15,6 +16,7 @@ function Tech() {
       <Crypto />
       <Games />
       <Developer />
+      <UIUX />
       <ARVR />
     </div>
   );
