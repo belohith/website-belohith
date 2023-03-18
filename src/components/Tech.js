@@ -16,7 +16,7 @@ function Tech() {
       <Crypto />
       <Games />
       <Developer />
-      <UIUX />
+     
       <ARVR />
     </div>
   );
