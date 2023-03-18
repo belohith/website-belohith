@@ -144,14 +144,14 @@ function ReadBlogs() {
             date="10 Apr 2022 ·"
             time="1 min read"
             theme=""
-            link="https://www.thetellermagazine.com/post/incomplete"
+            link="https://issuu.com/theteller/docs/april22-final/8"
           />
           <BlogThumbnail
             title="Worry"
             date="10 Apr 2022 ·"
             time="1 min read"
             theme=""
-            link="https://www.thetellermagazine.com/post/worry"
+            link="https://issuu.com/theteller/docs/april22-final/8"
           />
           <BlogThumbnail
             title="Late as always"
