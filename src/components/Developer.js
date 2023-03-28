@@ -14,6 +14,7 @@ import Caramel from "./images/caramel.JPG";
 import toi from "./images/toi.JPG";
 import stiw1 from "./images/stiw1.JPG";
 import arrow from "./images/arrowfitness.JPG";
+import tweb from "./images/terminal-web.PNG";
 
 function Developer() {
   return (
@@ -23,6 +24,18 @@ function Developer() {
           Projects
         </p>
         <div>
+          
+        <DevProj
+            image={tweb}
+            title="Terminal Style Website/Portfolio"
+            date="28 Mar 2023"
+            tech="HTML · CSS · Javascript"
+            proj="View Live"
+            github="GitHub"
+            description="Built using Vanilla JavaScript, this is a mini version of my website to give the user a command line experience."
+            websiteLink="https://terminal-web-lohith.web.app"
+            githubLink="https://github.com/belohith/website-terminal-belohith"
+          />
           <DevProj
             image={stiw1}
             title="Shark Tank India React"
