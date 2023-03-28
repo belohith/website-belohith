@@ -33,7 +33,7 @@ function Developer() {
             proj="View Live"
             github="GitHub"
             description="Built using Vanilla JavaScript, this is a mini version of my website to give the user a command line experience."
-            websiteLink="https://terminal-web-lohith.web.app"
+            websiteLink="https://terminal-belohith.netlify.app/"
             githubLink="https://github.com/belohith/website-terminal-belohith"
           />
           <DevProj
