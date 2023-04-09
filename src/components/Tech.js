@@ -16,12 +16,11 @@ function Tech() {
       </div>
       <Crypto />
       <Games />
-      <p className="layout-title" style={{ color: "#EE6E13", opacity: 1 }}>
+      <p id='uiux-projects' className="layout-title" style={{ color: "#EE6E13", opacity: 1 }}>
           UI / UX Projects
         </p>
       <UIUX />
       <Developer />
-     <Sample />
       <ARVR />
     </div>
   );

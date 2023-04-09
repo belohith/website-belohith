@@ -4,7 +4,7 @@ function Games() {
   return (
     <div>
       <div className="layout" style={{ backgroundColor: "#191919" }}>
-      <p className="layout-title" style={{ color: "#FFD700", opacity: 1 }}>Skills</p>
+      <p id="skills" className="layout-title" style={{ color: "#FFD700", opacity: 1 }}>Skills</p>
       <h2 style={{color: "white"}}>Programming Languages</h2>
       <div style={{ alignItems: "center", display: "flex",  justifyContent: 'center'}}>
         <p className="box-white">C</p>

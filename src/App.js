@@ -17,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tech" element={<Tech />} />
+        <Route path="/tech/#uiux-projects" element={<Tech />} />
         <Route path="/creative" element={<Creative />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

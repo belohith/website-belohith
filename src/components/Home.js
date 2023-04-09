@@ -3,6 +3,7 @@ import Subtitle from './Subtitle';
 import SearchBar from './SearchBar';
 import lohai from "./images/lohai.png";
 import React, { useState, useEffect } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 
 function Home() {
@@ -36,7 +37,6 @@ function Home() {
     <div  style={{display: "flex", margin: "100px 0 auto", alignItems: "center", justifyContent: "center"}}>
       <div>
       <Title/>
-      
       </div>
       <div  style={{marginLeft: "200px"}}>
       <p className='ascii-art'>
@@ -105,6 +105,9 @@ cccl:..,:::;:cc:;::;;,';;'....;codddoc:;,''''''',,,,,;;,,'........'',,';:::::::,
     </div>
     
     <Subtitle/>
+    
+    <HashLink to="/tech/#uiux-projects" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>Take a look at my UI/UX Projects</HashLink> <br/>
+    <HashLink to="/tech/#skills" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>here are all the skills that I bring to the table</HashLink>
   </div>;
 }
 
