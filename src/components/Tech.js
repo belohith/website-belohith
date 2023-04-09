@@ -15,6 +15,10 @@ function Tech() {
       </div>
       <Crypto />
       <Games />
+      <p className="layout-title" style={{ color: "#EE6E13", opacity: 1 }}>
+          UI / UX
+        </p>
+      <UIUX />
       <Developer />
      
       <ARVR />
