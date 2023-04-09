@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "./Modal";
 
 export default function MediaCard(props) {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleButtonClick = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
   return (
     <div className="card-dp" style={{
       borderBottom: `${props.borderBottom}`}}>
@@ -12,12 +22,18 @@ export default function MediaCard(props) {
         <h2 className="title-dp" style={{
       color: `${props.titlecolor}` }}>{props.title}</h2>
         <p className="desc-dp">{props.description}</p>
+        <a className="link-dp" onClick={handleButtonClick} target="_blank">
+          {props.modal}
+        </a>
         <a className="link-dp" href={props.websiteLink} target="_blank">
           {props.proj}
         </a>
         <a className="link-dp" href={props.githubLink} target="_blank">
           {props.github}
         </a>
+        
+      {showModal && <Modal onClose={handleCloseModal} content={props.modalcontent}  />}
+      
         <p className="text-dp">Started on: {props.date}</p>
         <p
           className="text-dp"

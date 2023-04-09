@@ -6,6 +6,7 @@ import ML from "./ML";
 import Crypto from "./Crypto";
 import Games from "./Games";
 import UIUX from "./UIUX";
+import Sample from "./Sample";
 
 function Tech() {
   return (
@@ -16,11 +17,11 @@ function Tech() {
       <Crypto />
       <Games />
       <p className="layout-title" style={{ color: "#EE6E13", opacity: 1 }}>
-          UI / UX
+          UI / UX Projects
         </p>
       <UIUX />
       <Developer />
-     
+     <Sample />
       <ARVR />
     </div>
   );

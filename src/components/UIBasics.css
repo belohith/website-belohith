@@ -519,6 +519,7 @@
   text-decoration: none;
   margin: 8px;
   color: #2d918e;
+  cursor: pointer;
 }
 
 /* card.css */
@@ -1072,4 +1073,59 @@ button:hover {
   color: #b18a4f;
   font-size: 90%;
   font-weight: 100;
+}
+
+.modal-overlay {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: relative;
+  background-color: #191919;
+  border-radius: 5px;
+  width: 70%;
+  max-width: 1000px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  margin-top: 20px;
+  color: #fff;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.zerogap {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.centerimages {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.width50 {
+  width: 50%;
 }

@@ -1,15 +1,16 @@
 import React from "react";
 
-function Modal(props) {
-  const { title, content, onClose } = props;
-
+function Modal({ onClose, content }) {
   return (
-    <div className="modal">
-      <div className="modal-header">
-        <h2>{title}</h2>
-        <button onClick={onClose}>X</button>
+    <div className="modal-overlay">
+      <div className="modal">
+        <div className="modal-content">
+          <span className="close" onClick={onClose}>
+            &times;
+          </span>
+          <p>{content}</p>
+        </div>
       </div>
-      <div className="modal-content">{content}</div>
     </div>
   );
 }
