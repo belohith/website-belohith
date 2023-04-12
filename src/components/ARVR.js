@@ -20,7 +20,7 @@ function ARVR() {
   return (
     <div>
       <div className="layout" style={{ backgroundColor: "#191919" }}>
-        <p className="layout-title" style={{ color: "#d70c6b", opacity: 1 }}>AR & VR Filters</p>
+        <p className="layout-title small-text" style={{ color: "#d70c6b", opacity: 1 }}>AR & VR Filters</p>
         <div >
           <Filter
             image={F1}

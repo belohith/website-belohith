@@ -5,8 +5,7 @@ const YoutubeVideo = ({ videoId }) => {
     <div className="youtube-video-container">
       <iframe
         title={videoId}
-        width="560"
-        height="315"
+        className='youtube-wh'
         src={`https://www.youtube.com/embed/${videoId}`}
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

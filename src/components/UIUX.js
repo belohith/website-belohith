@@ -164,8 +164,8 @@ const PhotoGrid = () => {
       <p className="width50">
         You can scroll down to read the complete case study here. You can also
         view the project on other platforms: <a className="link-dp" href="https://www.behance.net/gallery/167975041/Soup-Kitchen-Location-Planner-Website-UI-UX-Case-Study" target="_blank">Behance</a>,{" "}
-        <a className="link-dp" href="" target="_blank">Figma: Case Study Files</a>, <a className="link-dp" href="" target="_blank">Figma: Lo-Fi Prototype</a>,{" "}
-        <a className="link-dp" href="" target="_blank">Figma: Hi-Fi Prototype</a>, <a className="link-dp" href="https://github.com/belohith/ui-ux-projects/tree/main/3%20Community%20Cooks%20Connect" target="_blank">GitHub</a>
+        <a className="link-dp" href="https://www.figma.com/file/8p1jchrqzQP3B0hrH85sg3/Untitled?node-id=5%253A849&t=xSedTqBfBfjS2PNl-1" target="_blank">Figma: Case Study Files</a>, <a className="link-dp" href="https://www.figma.com/file/8p1jchrqzQP3B0hrH85sg3/Untitled?node-id=5%253A849&t=xSedTqBfBfjS2PNl-1" target="_blank">Figma: Lo-Fi Prototype</a>,{" "}
+        <a className="link-dp" href="https://www.figma.com/file/8p1jchrqzQP3B0hrH85sg3/Untitled?node-id=5%253A849&t=xSedTqBfBfjS2PNl-1" target="_blank">Figma: Hi-Fi Prototype</a>, <a className="link-dp" href="https://github.com/belohith/ui-ux-projects/tree/main/3%20Community%20Cooks%20Connect" target="_blank">GitHub</a>
       </p>
       </div>
       <div className="centerimages">

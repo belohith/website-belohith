@@ -6,7 +6,7 @@ function Games() {
       <div className="layout" style={{ backgroundColor: "#191919" }}>
       <p id="skills" className="layout-title" style={{ color: "#FFD700", opacity: 1 }}>Skills</p>
       <h2 style={{color: "white"}}>Programming Languages</h2>
-      <div style={{ alignItems: "center", display: "flex",  justifyContent: 'center'}}>
+      <div className="flex-row center">
         <p className="box-white">C</p>
         <p className="box-white">C++</p>
         <p className="box-white">C#</p>
@@ -21,7 +21,7 @@ function Games() {
         <p className="box-white">Kotlin</p>
         </div>
         <h2 style={{color: "white"}}>Frameworks</h2>
-        <div style={{ alignItems: "center", display: "flex", justifyContent: 'center'}}>
+        <div className="flex-row center">
         <p className="box-white">React</p>
         <p className="box-white">Vue</p>
         <p className="box-white">Angular</p>
@@ -36,7 +36,7 @@ function Games() {
         <p className="box-white">SASS</p>
         </div>
         <h2 style={{color: "white"}}>Other Technologies</h2>
-        <div style={{ alignItems: "center", display: "flex", justifyContent: 'center'}}>
+        <div className="flex-row center">
         <p className="box-white">HTML</p>
         <p className="box-white">CSS</p>
         <p className="box-white">XML</p>
@@ -47,7 +47,7 @@ function Games() {
         <p className="box-white">MySQL</p>
         
         </div>
-        <div style={{ alignItems: "center", display: "flex", marginBottom: '100px', justifyContent: 'center'}}>
+        <div className="flex-row center">
         <p className="box-white">MongoDB</p>
         <p className="box-white">Firebase</p>
         <p className="box-white">AWS S3</p>

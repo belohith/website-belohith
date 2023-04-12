@@ -34,12 +34,12 @@ function Home() {
   }
 
   return <div>
-    <div  style={{display: "flex", margin: "100px 0 auto", alignItems: "center", justifyContent: "center"}}>
+    <div  className="flex-row" style={{margin: "100px 0 auto", alignItems: "center", justifyContent: "center"}}>
       <div>
       <Title/>
       </div>
-      <div  style={{marginLeft: "200px"}}>
-      <p className='ascii-art'>
+      <div className='ml-200'>
+      <p className='ascii-art font-80'>
         oool,.''..'....  ...':oooddddkO00KK00OOkOOOkxl;'......'.... ..................':cloooooooooooooooooo<br/>
 ooooc;,,;,...    ..':dxkkkkkO0KKKXXXXXKKXXXXXKkoc,''.''.......'..........'....'',;cooooooooooooooooo<br/>
 oooool:;,'...    .':lxkkOOOO00KKKXXXXNNXNNNNNXKOdlc:;;;'.......'''',;,,','.......'cooooooooooooloooo<br/>
@@ -51,10 +51,10 @@ ooodddool;.      .,:ldxkOOO0KKXXXNNNWWWWWWWWWWNNXXXXKK0kxddxkkkxdodddlc;'..  ...
 oodddddooc..     .;lodxkO000KKKKKKKKXXXXXNNNNNXKKK0000OOkxdxxkOOkxddddl:'.   ....':ooooooooooooooooo<br/>
 ooddddddddl.     'cdxxkkkxxxkkxxdoooddxkOO0KKK0OxxxxxxxxxxxxxxxkkOkkxxdo;.  .. ..'cooooooooooooooooo<br/>
 oddddddddddc.   .;oxkxolc:;;;,,'.....';:codxkkxl::::;;,',,;;:ccccldxkkkxo,.     .,looooooooooooooooo<br/>
-odddddddddddl,. .:dxdc;,,,,'............,;::cc:;''....    .....',,;:ldkkkc.   ..,coooooooooooooooooo<br/>
-ooddodddddddoo' .cddo:,;;;,,,,'..........''',,,''......    ....,;::::lxkkd,...':loooooooooooooooooll<br/>
-odddddddddoddo, .ldoc;,',;;,,'............,lxxo;'.....     ...',;::ccldkkkl..':loooooodddoooooooooll<br/>
-oodddddddddddo, 'oxdoc,'''..'.   ........,xXWWNk;....   .     ..',,;:cdkOOo'.cooodddddddddddddooooll<br/>
+odddddddddddl,. .:dxdc;,,,,'............,;::cc:;''.............',,;:ldkkkc.   ..,coooooooooooooooooo<br/>
+ooddodddddddoo' .cddo:,;;;,,,,'..........''',,,''..............,;::::lxkkd,...':loooooooooooooooooll<br/>
+odddddddddoddo, .ldoc;,',;;,,'............,lxxo;'.............',;::ccldkkkl..':loooooodddoooooooooll<br/>
+oodddddddddddo, 'oxdoc,'''..'............,xXWWNk;...............',,;:cdkOOo'.cooodddddddddddddooooll<br/>
 ooddddodddddoc'.'oxkkdoc;'.';,''''.....,ckXNWMWXk:,'..........',,,:loxkOOOo,.'codddddddxxxddddooolll<br/>
 ooddddoddddddl..,dkO00OOxl;,,''''.',;cdOKKXWWMWNK0Oxc;'.....',;;coxO0000Oko,.'cddddddddxxxddddooooll<br/>
 oodddddddddodo:.,dk0KKXXKOxoc:;;:cok0KXXKKXNWMWNXXXXKOxol::;::ldkOKKXKK0Oxl,.,ldddddddddddddddooooll<br/>
@@ -66,32 +66,32 @@ oooodddooooddol;;clodxkkO0KKXXXXXK000000000KKKKKKKXKOkk0000KKKKKKKK0OOkkkxlloodd
 oooooddddddoddl:';ldxxkkkO000KK0KKKXXOl:;:cooooddddl::dKX0OkOOO0OOOkkkkkkdc:loddddddddddddddddooolll<br/>
 ooooooooodooooo:',:odxkkkkOOOOO000KXXKd;....'',,;;;;:lx0K0Okxxdxxxxxkkkkxl::lodddddddddxddddddooolll<br/>
 oooooooooooooool,',cldxxxxkkkkOO00KKK0kl,...........';cdxdoooooooodxxxxxoc:cloddddddxxxxdddddoooolll<br/>
-oooooooooooooooo:,';:clddddddxkkOOOOkdl:,'.. ..    ...',;;:ccclolloddddo:;;cooddddddddddddddoooollll<br/>
-ooooooooooooooooc,'',,;clllloddxddolc;'.............. ....',;;looloollc;,,:looddoddddddddoooooolllll<br/>
-ooooooooooooddoooc'..''',:cllolc:;'....  .....................;oolcc:,'.';clooooooooooooooooooolllll<br/>
-oooooooooooooooooo:'......,;::;.... ......',::::ccc::;,''...  .;;;,,'...,:loooooooooooooooooolllllll<br/>
-oooooooooooooooooooc,... ....... ..';::::;;:c:::;;;;,;:cc:,.......'....':looooooooooooooooolllllllll<br/>
-ooooooooooooooooooooc;..  .........;loolc:;;;,''''',,,:lll:,..'..... .,cooooooooooooooooolllllllllll<br/>
-oooooooooooooooooooolc;... .......':oddxdolc:;,;,'';codxxxl;....... .,looooooooooooooooollllllllllll<br/>
+oooooooooooooooo:,';:clddddddxkkOOOOkdl:,'............',;;:ccclolloddddo:;;cooddddddddddddddoooollll<br/>
+ooooooooooooooooc,'',,;clllloddxddolc;'...................',;;looloollc;,,:looddoddddddddoooooolllll<br/>
+ooooooooooooddoooc'..''',:cllolc:;'...........................;oolcc:,'.';clooooooooooooooooooolllll<br/>
+oooooooooooooooooo:'......,;::;...........',::::ccc::;,''......;;;,,'...,:loooooooooooooooooolllllll<br/>
+oooooooooooooooooooc,..............';::::;;:c:::;;;;,;:cc:,.......'....':looooooooooooooooolllllllll<br/>
+ooooooooooooooooooooc;.............;loolc:;;;,''''',,,:lll:,..'.......,cooooooooooooooooolllllllllll<br/>
+oooooooooooooooooooolc;...........':oddxdolc:;,;,'';codxxxl;.........,looooooooooooooooollllllllllll<br/>
 oooooooooooooooooooool;..........';cdkO0Okxxl:,,;;;lkOOOkxo:,........:loooooooooooooooolllllllllllll<br/>
 oooooooooooooooooooool:'.........',:oxkOOkkkxlcclooxkkxddoc,.........,cloooooooooooooooollllllllllll<br/>
-oooooooooooooooloolc:,'......   ...';coooooddlllllccoocclc:'........''.,;;:;;clloooooollllllllllllll<br/>
-ooooooooooolc:;,;;;,,'.,:.....   ..'',;;:cc:::;;;;;;:::,',,'.......,o:...',,.',;:cccclllllllllllllll<br/>
-ooooolllc::;,'',',,,''.;dl'.    ..',,';;,;;;,'...',,'';;'.''......;okc..''''....,::;::ccllllllllllll<br/>
-lllcc:::;;:,'',,'',,'..;ddl;..  ...,,,;;;;,'..........';,.......':okx;...''.....,:::;;;::ccclllllllc<br/>
+oooooooooooooooloolc:,'............';coooooddlllllccoocclc:'........''.,;;:;;clloooooollllllllllllll<br/>
+ooooooooooolc:;,;;;,,'.,:..........'',;;:cc:::;;;;;;:::,',,'.......,o:...',,.',;:cccclllllllllllllll<br/>
+ooooolllc::;,'',',,,''.;dl'.......',,';;,;;;,'...',,'';;'.''......;okc..''''....,::;::ccllllllllllll<br/>
+lllcc:::;;:,'',,'',,'..;ddl;.......,,,;;;;,'..........';,.......':okx;...''.....,:::;;;::ccclllllllc<br/>
 cccc::cc::;'',,,..','..'oxdl:'.......';;,''...........,;,......,coxkl....''.....';::;,,;:;;;:cc::;;;<br/>
 cc:::::cc:,',;;'..,;,...:xxol:,......................':,.... .;ldxxl'....''.....',::;,,,;,,;::::;;;;<br/>
-::::::cc:,.';;,..',;,'...lkdoc;,'........       ............,:ldxxl'....'''......,;;;,,,,',;:::;;;;;<br/>
-::::::cc,..;:,.'',;;,'...;xkxoc;,'''.....       ........'';clloddc'....'''''''...;::;,,,,,,;::;;,;;;<br/>
-:c:::cc:..;c;'',,,;;,''..'lOkxoc;,''''........ . .....,;cclooddl;.....'',,,,,'...;c:::;,,,;;::;;;;;;<br/>
+::::::cc:,.';;,..',;,'...lkdoc;,'...........................,:ldxxl'....'''......,;;;,,,,',;:::;;;;;<br/>
+::::::cc,..;:,.'',;;,'...;xkxoc;,'''....................'';clloddc'....'''''''...;::;,,,,,,;::;;,;;;<br/>
+:c:::cc:..;c;'',,,;;,''..'lOkxoc;,''''................,;cclooddl;.....'',,,,,'...;c:::;,,,;;::;;;;;;<br/>
 cc:ccc;..;c:,,;;,;;;,''...,lkkxoc:;,,'''''''........',;:cloodo:'...'',,',;;;;;,..;c:c:;,,;;::;;::::c<br/>
 cc:cl:..,cc;,::;;;;;,'','...;dkkxolc:;,'''''''''''',,;::cllc;......',,,,;:;;:;;'';c:cc:;;;;;;;::::::<br/>
 cccl:..,:::;:cc:;::;;,';;'....;codddoc:;,''''''',,,,,;;,,'........'',,';:::::::,':ccccc::::;;::c::::<br/>
-:cc:..,:c:;:ccc::::::;',;;,'......,,;;;,,''''',,,,,,'..   ........'',,,;:::::::,';c:::cccc:;;:cc::;:<br/>
-:c:..'::::;:ccc::cc::;,,;;;;,'......................      .......'',,;;::ccccc:;,;c:;;ccc::;;:c::;::<br/>
-::'.';::::;:ccc::cc:::,,;;,,;;,'...........              ........',,,;:::cccccc;,;::;,;cc::::::::;:c<br/>
+:cc:..,:c:;:ccc::::::;',;;,'......,,;;;,,''''',,,,,,'.............'',,,;:::::::,';c:::cccc:;;:cc::;:<br/>
+:c:..'::::;:ccc::cc::;,,;;;;,'...................................'',,;;::ccccc:;,;c:;;ccc::;;:c::;::<br/>
+::'.';::::;:ccc::cc:::,,;;,,;;,'.................................',,,;:::cccccc;,;::;,;cc::::::::;:c<br/>
 </p>
-<p className='ascii-art' style={{fontSize:"100%"}}>
+<p className='ascii-art font-100'>
       {/* split text into individual letters and add "hover-color" class */}
       {'This is an ASCII art generated from my project'.split('').map((letter, index) => (
         <span key={index} className="hover-color" style={{ color }}>
@@ -99,7 +99,7 @@ cccl:..,:::;:cc:;::;;,';;'....;codddoc:;,''''''',,,,,;;,,'........'',,';:::::::,
         </span>
       ))}
     </p>
-    <p className="tag-font"  style={{ cursor: "pointer"}}>original image - the project</p>
+    {/* <p className="tag-font"  style={{ cursor: "pointer"}}>original image - the project</p> */}
     </div>
  
     </div>

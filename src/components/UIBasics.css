@@ -15,6 +15,11 @@
   flex-direction: row;
 }
 
+.flex-row-1 {
+  display: flex;
+  flex-direction: row;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
@@ -105,9 +110,18 @@
   margin-bottom: 5rem;
 }
 
+.ml-200 {
+  margin-left: 200px;
+}
+
 .width-100 {
   width: 100%;
   height: fit-content;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
 }
 
 .grayoverlay {
@@ -224,6 +238,16 @@
   padding: 0.5rem;
   font-family: "Jost", "sans-serif";
   font-size: 110%;
+}
+
+
+.title-font-1 {
+cursor: pointer;
+font-size: 400%;
+text-align: right;
+font-family: "Space Mono";
+color: white;
+text-Shadow: 1px 1px #ff0707;
 }
 
 .option-input:focus {
@@ -416,11 +440,26 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  .blog-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 80%;
+  }
+
+  .blogTh {
+    width: 100%;
+  }
+
   .blogThTitle {
     font-size: 1rem;
   }
+
   .blogThSub {
     font-size: 0.8rem;
+  text-align: left;
+  margin: 0.5rem 0.1rem;
   }
   .blogTh a {
     color: #ffffff;
@@ -840,8 +879,15 @@ button:hover {
   background-color: #191919;
   color: #ffffff;
   white-space: pre;
-  font-size: 50%;
   cursor: pointer;
+}
+
+.font-80 {
+  font-size: 50%;
+}
+
+.font-100 {
+  font-size: 100%;
 }
 
 .tag-font {
@@ -928,6 +974,11 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 50vh;
+}
+
+.youtube-wh {
+width: 560px;
+height: 315px;
 }
 
 .youtube-video-container {
@@ -1128,4 +1179,374 @@ button:hover {
 
 .width50 {
   width: 50%;
+}
+
+@media (max-width: 768px) {
+  /* Adjust font sizes */
+  .font-size-10 {
+    font-size: 5rem;
+  }
+  .font-size-1-2 {
+    font-size: 1rem;
+  }
+
+  .font-80 {
+    font-size:0.3rem;
+  }
+
+  .font-100 {
+    font-size: 0.75rem;
+  }
+
+  .top-menu-item {
+    padding: 0.4rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 80%;
+  }
+
+  .flex-start {
+    display: flex;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .absolute {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 99;
+    margin: 0 auto;
+  }
+
+  .youtube-wh {
+    width: 300px;
+    height: 180px;
+    }
+
+  .title-font-1 {
+    cursor: pointer;
+    font-size: 300%;
+    text-align: center;
+    font-family: "Space Mono";
+    color: white;
+    text-Shadow: 1px 1px #ff0707;
+    }
+  
+  /* Adjust margins and padding */
+  .margin-8 {
+    margin: 4rem;
+  }
+  .margin-4 {
+    margin-top: 2rem;
+  }
+  
+  /* Modify input width */
+  .text-input {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjust font sizes */
+  .font-size-10 {
+    font-size: 3rem;
+  }
+  .font-size-1-2 {
+    font-size: 0.8rem;
+  }
+  
+  /* Adjust margins and padding */
+  .margin-8 {
+    margin: 2rem;
+  }
+  .margin-4 {
+    margin-top: 1rem;
+  }
+  
+  /* Modify input width */
+  .text-input {
+    width: 100%;
+  }
+}
+
+/* For screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .ml-200 {
+    margin-left: 0;
+  }
+
+  .flex-row-1 {
+    flex-direction: row;
+  }
+  
+  .margin-8 {
+    margin: 2rem;
+  }
+  
+  .book-option {
+    font-size: 90%;
+  }
+  
+  .btn-bookbuy {
+    width: 100%;
+  }
+}
+
+/* For screens with a minimum width of 768px */
+@media only screen and (max-width: 768px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .center {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .layout-title {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .small-text {
+    font-size: 2.5rem;
+  }
+  
+  .book-option {
+    font-size: 100%;
+  }
+  
+  .btn-lr {
+    visibility: visible;
+  }
+  
+  .btn-bookbuy {
+    width: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .option-input {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .margin-4,
+  .margin-2,
+  .margin-lr-4 {
+    margin: 2rem;
+  }
+
+  .about-book {
+    width: 100%;
+  }
+
+  .flex-wh-yt,
+  .flex-wh-sp {
+    width: 100%;
+    height: auto;
+  }
+
+  .items-bg {
+    width: 100%;
+    max-height: 22rem;
+  }
+
+  .blogList {
+    height: auto;
+  }
+
+  .blogTh {
+    margin: 0.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-dp, .card-f, .card-at {
+    width: 70%;
+    margin: 16px auto;
+  }
+
+  .title-dp, .title-f, .title-at {
+    font-size: 20px;
+  }
+
+  .desc-dp, .desc-f, .text-dp, .text-f {
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles for small screens */
+@media only screen and (max-width: 600px) {
+  .layout {
+    font-size: 14px;
+  }
+  .card-tb {
+    width: 70%;
+    padding: 10px;
+  }
+  .card {
+    width: 70%;
+  }
+}
+
+/* Responsive styles for medium screens */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .layout {
+    font-size: 16px;
+  }
+  .card-tb {
+    width: 60%;
+    padding: 15px;
+  }
+}
+
+/* Responsive styles for large screens */
+@media only screen and (min-width: 900px) {
+  .layout {
+    font-size: 18px;
+  }
+  .card-tb {
+    width: 720px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-container {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .card-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-group {
+    margin: 1em 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* styles for screens with max width of 768px */
+  .card-am {
+    width: 80%;
+  }
+  
+  .youtube-video-description {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  
+  .sp-desc {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .sp-desc-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .top-row,
+.bottom-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.top-row img,
+.bottom-row img {
+  width: 20%;
+  cursor: pointer;
+}
+}
+
+@media screen and (max-width: 480px) {
+  /* styles for screens with max width of 480px */
+  .gradient {
+    font-size: 100%;
+  }
+  
+  .card-am {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .youtube-video-container {
+    flex-direction: column;
+  }
+  
+  .youtube-video-description-container,
+  .spotify-audio-container {
+    margin-left: 0;
+  }
+  
+  .spotify-audio-container iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sp-desc {
+    width: 100%;
+    font-size: 80%;
+    margin-top: 20px;
+  }
+  
+  .top-row img,
+  .bottom-row img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Add this code to adjust the book-info-container and book-image-container on larger screens */
+  .book-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .book-info-container {
+    flex: 1;
+    padding: 16px;
+    max-width: 75%;
+  }
+
+  /* Add this code to adjust the card-co on larger screens */
+  .card-co {
+    width: 250px;
+    margin: 16px 8px;
+  }
+
+  /* Add this code to adjust the title-co on larger screens */
+  .title-co {
+    font-size: 24px;
+  }
 }

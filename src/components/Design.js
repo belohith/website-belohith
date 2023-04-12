@@ -11,7 +11,7 @@ function Design() {
         <p className="layout-title" style={{ color: "#ee6e13", opacity: 1 }}>
           Design
         </p>
-        <div style={{ alignItems: "center", display: "flex", marginBottom: '50px', marginTop: '50px',justifyContent: 'center'}}>
+        <div className="flex-row center">
         <p className="box-white">Adobe Illustrator</p>
         <p className="box-white">Adobe Photoshop</p>
         <p className="box-white">Adobe InDesign</p>

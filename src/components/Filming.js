@@ -7,7 +7,7 @@ function Filming() {
         <p className="layout-title" style={{ color: "#ee139a", opacity: 1 }}>
           Filming
         </p>
-        <div style={{ alignItems: "center", display: "flex", marginBottom: '50px', marginTop: '50px',justifyContent: 'center'}}>
+        <div  className="flex-row center">
         <p className="box-white">Adobe Premiere Pro</p>
         <p className="box-white">Adobe After Effects</p>
         <p className="box-white">Adobe Animate</p>

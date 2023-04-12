@@ -31,14 +31,8 @@ function Title() {
     <div>
       <p className="tag-font">{"<welcome>"}</p>
       <p
-        style={{
-          cursor: "pointer",
-          fontSize: "400%",
-          textAlign: "right",
-          fontFamily: "Space Mono",
-          color: "white",
-          textShadow: "1px 1px #ff0707"
-        }}
+        className="title-font-1"
+        
       >
         {/* split text into individual letters and add "hover-color" class */}
         {"lohith bollineni".split("").map((letter, index) => (

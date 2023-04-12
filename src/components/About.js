@@ -37,7 +37,7 @@ function About() {
     <div>
       <AboutMe title="Glad you are here!" text="I am Lohith Bollineni." />
       <div className="layout" style={{ backgroundColor: "#191919" }}>
-        <p className="layout-title" style={{ color: "#de9b00", opacity: 1, marginBottom: "5rem" }}>
+        <p className="layout-title small-text" style={{ color: "#de9b00", opacity: 1, marginBottom: "5rem" }}>
           Experience
         </p>
         <div >
@@ -374,7 +374,7 @@ function About() {
         //   desc1="Coursework: Data Structures & Algorithms • Computer Systems • Database Management System • Cybersecurity • Fundamentals of Computer Science • Data Science • Artificial Intelligence • Advance Web Development Programming • Machine Learning • Recent Advances in Computer Science • Advance Data Structures and Algorithms • Global Development Leadership (BUS)"
         />
         </div>
-        <p className="layout-title" style={{ color: "#de9b00", opacity: 1, marginTop: "5rem" }}>
+        <p className="layout-title small-text" style={{ color: "#de9b00", opacity: 1, marginTop: "5rem" }}>
           Commendations
         </p>
         <div>
