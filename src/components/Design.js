@@ -8,7 +8,7 @@ function Design() {
   return (
     <div>
       <div className="layout" style={{ backgroundColor: "#191919" }}>
-        <p className="layout-title" style={{ color: "#ee6e13", opacity: 1 }}>
+        <p id="design" className="layout-title" style={{ color: "#ee6e13", opacity: 1 }}>
           Design
         </p>
         <div className="flex-row center">

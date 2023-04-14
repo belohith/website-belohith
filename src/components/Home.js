@@ -107,7 +107,11 @@ cccl:..,:::;:cc:;::;;,';;'....;codddoc:;,''''''',,,,,;;,,'........'',,';:::::::,
     <Subtitle/>
     
     <HashLink to="/tech/#uiux-projects" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>Take a look at my UI/UX Projects</HashLink> <br/>
-    <HashLink to="/tech/#skills" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>here are all the skills that I bring to the table</HashLink>
+    <HashLink to="/tech/#skills" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>here are all the skills that I bring to the table</HashLink><br/>
+    <HashLink to="/tech/#arvr" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>look at all my AR & VR Filters</HashLink><br/>
+    <HashLink to="/creative/#design" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>look at my design work</HashLink><br/>
+    <HashLink to="/tech/#tech-projects" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>here are all the tech projects, I worked on so far</HashLink><br/>
+    <HashLink to="/creative/#author" className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}} smooth>I am an author. check this out!</HashLink><br/>
   </div>;
 }
 

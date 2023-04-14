@@ -20,7 +20,7 @@ function Developer() {
   return (
     <div>
       <div className="layout" style={{ backgroundColor: "#191919" }}>
-        <p className="layout-title" style={{ color: "#2ade8a", opacity: 1 }}>
+        <p id="tech-projects" className="layout-title" style={{ color: "#2ade8a", opacity: 1 }}>
           Projects
         </p>
         <div>
