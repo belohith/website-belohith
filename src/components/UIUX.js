@@ -85,23 +85,23 @@ const PhotoGrid = () => {
       </p>
       </div>
       <div className="centerimages">
-        <img src={cs1_01} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_02} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_03} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_04} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_05} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_06} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_07} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_08} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_09} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_10} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_11} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_12} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_13} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_14} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_15} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_16} alt="Image" width="700" className="zerogap" />
-        <img src={cs1_17} alt="Image" width="700" className="zerogap" />
+        <img src={cs1_01} alt="Image" className="zerogap" />
+        <img src={cs1_02} alt="Image" className="zerogap" />
+        <img src={cs1_03} alt="Image" className="zerogap" />
+        <img src={cs1_04} alt="Image" className="zerogap" />
+        <img src={cs1_05} alt="Image" className="zerogap" />
+        <img src={cs1_06} alt="Image" className="zerogap" />
+        <img src={cs1_07} alt="Image" className="zerogap" />
+        <img src={cs1_08} alt="Image" className="zerogap" />
+        <img src={cs1_09} alt="Image" className="zerogap" />
+        <img src={cs1_10} alt="Image" className="zerogap" />
+        <img src={cs1_11} alt="Image" className="zerogap" />
+        <img src={cs1_12} alt="Image" className="zerogap" />
+        <img src={cs1_13} alt="Image" className="zerogap" />
+        <img src={cs1_14} alt="Image" className="zerogap" />
+        <img src={cs1_15} alt="Image" className="zerogap" />
+        <img src={cs1_16} alt="Image" className="zerogap" />
+        <img src={cs1_17} alt="Image" className="zerogap" />
       </div>
     </>
   );
@@ -126,25 +126,25 @@ const PhotoGrid = () => {
       </p>
       </div>
       <div className="centerimages">
-        <img src={cs2_01} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_02} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_03} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_04} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_05} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_06} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_07} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_08} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_09} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_10} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_11} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_12} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_13} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_14} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_15} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_16} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_17} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_18} alt="Image" width="700" className="zerogap" />
-        <img src={cs2_19} alt="Image" width="700" className="zerogap" />
+        <img src={cs2_01} alt="Image" className="zerogap" />
+        <img src={cs2_02} alt="Image" className="zerogap" />
+        <img src={cs2_03} alt="Image" className="zerogap" />
+        <img src={cs2_04} alt="Image" className="zerogap" />
+        <img src={cs2_05} alt="Image" className="zerogap" />
+        <img src={cs2_06} alt="Image" className="zerogap" />
+        <img src={cs2_07} alt="Image" className="zerogap" />
+        <img src={cs2_08} alt="Image" className="zerogap" />
+        <img src={cs2_09} alt="Image" className="zerogap" />
+        <img src={cs2_10} alt="Image" className="zerogap" />
+        <img src={cs2_11} alt="Image" className="zerogap" />
+        <img src={cs2_12} alt="Image" className="zerogap" />
+        <img src={cs2_13} alt="Image" className="zerogap" />
+        <img src={cs2_14} alt="Image" className="zerogap" />
+        <img src={cs2_15} alt="Image" className="zerogap" />
+        <img src={cs2_16} alt="Image" className="zerogap" />
+        <img src={cs2_17} alt="Image" className="zerogap" />
+        <img src={cs2_18} alt="Image" className="zerogap" />
+        <img src={cs2_19} alt="Image" className="zerogap" />
       </div>
     </>
   );
@@ -169,24 +169,24 @@ const PhotoGrid = () => {
       </p>
       </div>
       <div className="centerimages">
-        <img src={cs3_01} alt="Image" width="700" className="zerogap" />
-<img src={cs3_02} alt="Image" width="700" className="zerogap" />
-<img src={cs3_03} alt="Image" width="700" className="zerogap" />
-<img src={cs3_04} alt="Image" width="700" className="zerogap" />
-<img src={cs3_05} alt="Image" width="700" className="zerogap" />
-<img src={cs3_06} alt="Image" width="700" className="zerogap" />
-<img src={cs3_07} alt="Image" width="700" className="zerogap" />
-<img src={cs3_08} alt="Image" width="700" className="zerogap" />
-<img src={cs3_09} alt="Image" width="700" className="zerogap" />
-<img src={cs3_10} alt="Image" width="700" className="zerogap" />
-<img src={cs3_11} alt="Image" width="700" className="zerogap" />
-<img src={cs3_12} alt="Image" width="700" className="zerogap" />
-<img src={cs3_13} alt="Image" width="700" className="zerogap" />
-<img src={cs3_14} alt="Image" width="700" className="zerogap" />
-<img src={cs3_15} alt="Image" width="700" className="zerogap" />
-<img src={cs3_16} alt="Image" width="700" className="zerogap" />
-<img src={cs3_17} alt="Image" width="700" className="zerogap" />
-<img src={cs3_18} alt="Image" width="700" className="zerogap" />
+        <img src={cs3_01} alt="Image" className="zerogap" />
+<img src={cs3_02} alt="Image" className="zerogap" />
+<img src={cs3_03} alt="Image" className="zerogap" />
+<img src={cs3_04} alt="Image" className="zerogap" />
+<img src={cs3_05} alt="Image" className="zerogap" />
+<img src={cs3_06} alt="Image" className="zerogap" />
+<img src={cs3_07} alt="Image" className="zerogap" />
+<img src={cs3_08} alt="Image" className="zerogap" />
+<img src={cs3_09} alt="Image" className="zerogap" />
+<img src={cs3_10} alt="Image" className="zerogap" />
+<img src={cs3_11} alt="Image" className="zerogap" />
+<img src={cs3_12} alt="Image" className="zerogap" />
+<img src={cs3_13} alt="Image" className="zerogap" />
+<img src={cs3_14} alt="Image" className="zerogap" />
+<img src={cs3_15} alt="Image" className="zerogap" />
+<img src={cs3_16} alt="Image" className="zerogap" />
+<img src={cs3_17} alt="Image" className="zerogap" />
+<img src={cs3_18} alt="Image" className="zerogap" />
 
       </div>
     </>
