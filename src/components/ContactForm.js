@@ -35,6 +35,7 @@ const ContactForm = () => {
           console.log(error.text);
         }
       );
+      setShowModal(true);
     e.target.reset();
   };
 
@@ -43,10 +44,6 @@ const ContactForm = () => {
   };
 
   const [showModal, setShowModal] = useState(false);
-
-  const handleButtonClick = () => {
-    setShowModal(true);
-  };
 
   const handleCloseModal = () => {
     setShowModal(false);
@@ -95,7 +92,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="form-group">
-            <button type="submit" onClick={handleButtonClick}>
+            <button type="submit" >
               Submit
             </button>
             <button
