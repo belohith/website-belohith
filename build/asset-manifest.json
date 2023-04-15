@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6718969c.css",
-    "main.js": "/static/js/main.5c22361e.js",
+    "main.js": "/static/js/main.f1152bb2.js",
     "static/media/ws5.png": "/static/media/ws5.46b262007e8729541653.png",
     "static/media/casestudy2.jpg": "/static/media/casestudy2.5fa1892ba552a3866b60.jpg",
     "static/media/renai.png": "/static/media/renai.dd91b20376ef9b28fd4d.png",
@@ -132,10 +132,10 @@
     "static/media/facebook.png": "/static/media/facebook.32220e6675f565eda455.png",
     "index.html": "/index.html",
     "main.6718969c.css.map": "/static/css/main.6718969c.css.map",
-    "main.5c22361e.js.map": "/static/js/main.5c22361e.js.map"
+    "main.f1152bb2.js.map": "/static/js/main.f1152bb2.js.map"
   },
   "entrypoints": [
     "static/css/main.6718969c.css",
-    "static/js/main.5c22361e.js"
+    "static/js/main.f1152bb2.js"
   ]
 }

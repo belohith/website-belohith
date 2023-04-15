@@ -815,7 +815,14 @@ text-Shadow: 1px 1px #ff0707;
 .form-group {
   width: 100%;
   margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
 }
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+  color: #333333;
+}
+
 
 label {
   width: 100%;
@@ -1154,6 +1161,16 @@ height: 315px;
   color: #fff;
   max-height: 500px;
   overflow-y: auto;
+}
+
+.modal-contact {
+  position: relative;
+  background-color: #191919;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .close {

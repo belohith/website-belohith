@@ -1,5 +1,5 @@
 import classes from "./UIBasics.css";
-
+import { HashLink as Link } from "react-router-hash-link";
 import React, { useState, useEffect } from "react";
 
 function Title() {
@@ -30,10 +30,7 @@ function Title() {
   return (
     <div>
       <p className="tag-font">{"<welcome>"}</p>
-      <p
-        className="title-font-1"
-        
-      >
+      <p className="title-font-1">
         {/* split text into individual letters and add "hover-color" class */}
         {"lohith bollineni".split("").map((letter, index) => (
           <span key={index} className="hover-color" style={{ color }}>
@@ -41,8 +38,28 @@ function Title() {
           </span>
         ))}
       </p>
-      <p className="tag-font" style={{opacity: "0.5", cursor: "pointer"}}>developer - designer - author - visual storyteller </p>
-      <p className="tag-font" style={{opacity: "1", color: "#e5e110", cursor: "pointer"}}>currently looking for jobs related to Computer Science anywhere in the US - <a style={{textDecoration: "underline"}}>hire me!</a></p>
+      <p className="tag-font" style={{ opacity: "0.5", cursor: "pointer" }}>
+        developer - designer - author - visual storyteller{" "}
+      </p>
+      <p
+        className="tag-font"
+        style={{ opacity: "1", color: "#e5e110", cursor: "pointer" }}
+      >
+        currently looking for jobs related to Computer Science anywhere in the
+        US -{" "}
+        <Link
+          to="/contact"
+          className="tag-font"
+          style={{
+            textDecoration: "underline",
+            opacity: "1",
+            color: "#e5e110",
+            cursor: "pointer",
+          }}
+        >
+          hire me!
+        </Link>
+      </p>
       <p className="tag-font">{"</welcome>"}</p>
     </div>
   );
