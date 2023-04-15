@@ -1,31 +1,41 @@
-import React, { useState, useRef  } from "react";
+import React, { useState, useRef } from "react";
 import Modal from "./Modal";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-
   const thankyou = (
     <>
-      <h2>
-        Thank you your response
-      </h2>
+      <h2>Thank you for your message!</h2>
+      <p>
+        If all your details are correct, I will reach out to you as soon as
+        possible. I respond within 24 hours or at least by the end of the coming
+        weekend.
+      </p>
     </>
   );
 
   const form = useRef();
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(form);
     // add code here to submit the form to your backend
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
-      .then((result) => {
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
-      e.target.reset();
+        }
+      );
+    e.target.reset();
   };
 
   const handleClear = () => {
@@ -85,11 +95,19 @@ const ContactForm = () => {
             />
           </div>
           <div className="form-group">
-            <button type="submit" onClick={handleButtonClick}>Submit</button>
-            <button type="button" onClick={handleClear} style={{backgroundColor: "#810d0d"}}>Clear</button>
+            <button type="submit" onClick={handleButtonClick}>
+              Submit
+            </button>
+            <button
+              type="button"
+              onClick={handleClear}
+              style={{ backgroundColor: "#810d0d" }}
+            >
+              Clear
+            </button>
           </div>
-          
-      {showModal && <Modal onClose={handleCloseModal} content={thankyou}  />}
+
+          {showModal && <Modal onClose={handleCloseModal} content={thankyou} />}
         </form>
       </div>
     </div>
