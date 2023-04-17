@@ -9,7 +9,7 @@ import Pinterest from "./social-icons/pinterest.png";
 import Twitter from "./social-icons/twitter.png";
 import Youtube from "./social-icons/youtube.png";
 import Snapchat from "./social-icons/snapchat.png";
-import Spotify from "./social-icons/spotify.png";
+import Hashnode from "./social-icons/hashnode.png";
 import Github from "./social-icons/github.png";
 
 function Socials() {
@@ -37,7 +37,7 @@ function Socials() {
         </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/user/Lohithurfrnd" target="_blank">
+        <a href="https://www.youtube.com/@belohith" target="_blank">
           <img src={Youtube} alt="youtube" className="social-icon " />{" "}
         </a>
         <a
@@ -47,10 +47,10 @@ function Socials() {
           <img src={Snapchat} alt="snapchat" className="social-icon" />{" "}
         </a>
         <a
-          href="https://open.spotify.com/show/77tgTTXihCsRqLSlFmyovx?si=fc3add6974564975"
+          href="https://belohith.hashnode.dev/"
           target="_blank"
         >
-          <img src={Spotify} alt="spotify" className="social-icon " />{" "}
+          <img src={Hashnode} alt="hashnode" className="social-icon " />{" "}
         </a>
         <a href="https://github.com/belohith" target="_blank">
           <img src={Github} alt="github" className="social-icon " />{" "}
@@ -58,7 +58,7 @@ function Socials() {
       </div>
       <div>
         <a
-          href="https://in.linkedin.com/in/lohith-bollineni-aa095a147"
+          href="https://www.linkedin.com/in/belohith/"
           target="_blank"
         >
           <img src={LinkedIn} alt="linkedin" className="social-icon" />{" "}

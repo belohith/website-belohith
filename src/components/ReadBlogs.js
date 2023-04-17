@@ -116,26 +116,29 @@ function ReadBlogs() {
           <h2 style={{color: "white"}}>Articles on Hashnode</h2>
           <div className="blogList">
           <BlogThumbnail
-            title="Incomplete"
-            date="10 Apr 2022 ·"
-            time="1 min read"
+            title="Learnings from the Google UX Design Professional Certificate: Part 1"
+            date="18 Apr 2023 ·"
+            time="19 min read"
             theme=""
-            link="https://www.thetellermagazine.com/post/incomplete"
+            link="https://belohith.hashnode.dev/learnings-from-the-google-ux-design-professional-certificate-part-1"
           />
+          
           <BlogThumbnail
-            title="Worry"
-            date="10 Apr 2022 ·"
-            time="1 min read"
+            title="Learnings from the Google UX Design Professional Certificate: Part 1"
+            date="18 Apr 2023 ·"
+            time="19 min read"
             theme=""
-            link="https://www.thetellermagazine.com/post/worry"
+            link="https://belohith.hashnode.dev/learnings-from-the-google-ux-design-professional-certificate-part-1"
           />
+          
           <BlogThumbnail
-            title="Late as always"
-            date="4 Dec 2021 ·"
-            time="2 min read"
+            title="Learnings from the Google UX Design Professional Certificate: Part 1"
+            date="18 Apr 2023 ·"
+            time="19 min read"
             theme=""
-            link="https://issuu.com/theteller/docs/dec_2021/22"
+            link="https://belohith.hashnode.dev/learnings-from-the-google-ux-design-professional-certificate-part-1"
           />
+          
           </div>
           <h2 style={{color: "white"}}>Submissions for Teller Magazine</h2>
           <div className="blogList">
