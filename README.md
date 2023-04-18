@@ -3,7 +3,7 @@
 Link: www.belohith.com
 
 Techstack: 
-> React, HTML, CSS, Javascript
+> ReactJS, HTML, CSS, Javascript
 
 Hosting: 
 > Firebase
